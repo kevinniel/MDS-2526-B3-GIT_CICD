@@ -62,6 +62,3 @@ Pour identifier un conflit dans un fichier, 3 parties :
 
 - Les commentaires de vos commits doivent être explicites. Si vous avez oublier de nommer correctement le dernier, faites un `git commit --amend`.
 - intégrer les gitmoji : https://gitmoji.dev/
-
-
-tatatatata
