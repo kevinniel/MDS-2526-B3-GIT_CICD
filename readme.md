@@ -12,6 +12,7 @@
 - `Repository` : C'est un dossier qui "utilise" GIT : il dispose d'un sous-dossier caché ".git". Ils peuvent être distants ou locaux.
 - `Repository local` : C'est le repository qui est sur une machine à laquelle vous avez généralement accès.
 - `Repository distant` : C'est le repository qui est **hébergé et géré** par une plateforme spécialisée (Github, Gitlab, Gitea, etc...). Ils peuvent être publics (accessibles à tous) ou privés (accessibles uniquement à ceux qu'on souhaite).
+- `Les branches` : Permettent de gérer plusieurs versions d'un même projet.
 
 ## Commandes
 
@@ -26,13 +27,15 @@
 - `git status` : Permet de voir l'état de la branche actuelle du repository local.
 - `git log` : Permet de voir l'historique des commits.
 
+- `git branch` : Permet de lister les branches du repository local et de voir quelle est la branche active.
+- `git branch <nom>` : Permet de créer une branche nommée sur le repository local.
+- `git checkout <nom>` : Permet de rendre la branche `<nom>` active (= changer de branche 🙈).
 
 
 
 rebase
 reset
 merge
-branch
 switch (checkout ???)
 
 
