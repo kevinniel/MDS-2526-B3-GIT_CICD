@@ -26,16 +26,11 @@
 - `git pull` : Permet de récupérer les commits du repository distant sur le repository local.
 - `git status` : Permet de voir l'état de la branche actuelle du repository local.
 - `git log` : Permet de voir l'historique des commits.
-
+- `git reset --hard` : Permet de supprimer toutes les modifications non commitées.
 - `git branch` : Permet de lister les branches du repository local et de voir quelle est la branche active.
 - `git branch <nom>` : Permet de créer une branche nommée sur le repository local.
 - `git checkout <nom>` : Permet de rendre la branche `<nom>` active (= changer de branche 🙈).
 - `git merge <nom>` : Permet de fusionner la branche `<nom>` avec la branche active.
-
-- `git reset --hard` : Permet de supprimer toutes les modifications non commitées.
-
-- `git rebase` : 
-
-rebase
+- `git rebase <branch>` : Permet de mettre à jour la branche courante à partir de la branche `<branch>`
 
 
