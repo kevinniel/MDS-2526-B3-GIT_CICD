@@ -31,10 +31,10 @@
 - `git branch <nom>` : Permet de créer une branche nommée sur le repository local.
 - `git checkout <nom>` : Permet de rendre la branche `<nom>` active (= changer de branche 🙈).
 
+- `git reset --hard` : Permet de supprimer toutes les modifications non commitées.
 
 rebase
 reset
 merge
-switch (checkout ???)
 
 
