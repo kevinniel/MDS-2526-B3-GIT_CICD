@@ -64,3 +64,4 @@ Pour identifier un conflit dans un fichier, 3 parties :
 - intégrer les gitmoji : https://gitmoji.dev/
 
 
+tatatatata
