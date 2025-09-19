@@ -36,16 +36,24 @@
 - `git merge <nom>` : Permet de fusionner la branche `<nom>` avec la branche active.
 - `git rebase <branch>` : Permet de mettre à jour la branche courante à partir de la branche `<branch>`
 
-## Gestion des conflits
+## Les conflits
 
-- Tata
-- TOTO
+### Comment les gérer ?
 
+Ils peuvent concerner 1 ou plusieurs fichiers
 
+Lorsqu'ils apparaissent, plusieurs options sont possibles :
+1. Garder l'ancienne version du fichier et supprimer la nouvelle.
+2. Garder la nouvelle version du fichier et supprimer l'ancienne.
+3. Garder les deux versions.
 
+Pour identifier un conflit dans un fichier, 3 parties :
+- Le début est symbolisé par une série de caractères `<<<<<<<<<<<`
+- La fin est symbolisé par une série de caractères `>>>>>>>>> <id_commit>`
+- Pour délimiter le code "avant" du code "après", GIT insère une série de caractères `=======`
 
+### Astuces pour les éviter ?
 
-## PB Exo
-
-1. Gestion de projet : pas d'orga = c'est la 💩
-2. Quand la conception est mauvaise !
+1. L'organisation permet largement d'éviter les conflits ou à minima de les limiter.
+2. Penser à `git pull` avant de `git push` permet d'éviter d'en avoir.
+3. C'est normal d'en rencontrer, même avec les meilleures pratiques.
