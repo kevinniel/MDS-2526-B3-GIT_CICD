@@ -57,3 +57,8 @@ Pour identifier un conflit dans un fichier, 3 parties :
 1. L'organisation permet largement d'éviter les conflits ou à minima de les limiter.
 2. Penser à `git pull` avant de `git push` permet d'éviter d'en avoir.
 3. C'est normal d'en rencontrer, même avec les meilleures pratiques.
+
+## Les bonnes pratiques
+
+- Les commentaires de vos commits doivent être explicites.
+
