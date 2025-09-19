@@ -61,4 +61,6 @@ Pour identifier un conflit dans un fichier, 3 parties :
 ## Les bonnes pratiques
 
 - Les commentaires de vos commits doivent être explicites.
+- intégrer les gitmoji : https://gitmoji.dev/
+
 
