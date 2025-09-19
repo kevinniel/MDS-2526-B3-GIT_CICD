@@ -13,6 +13,7 @@
 - `Repository local` : C'est le repository qui est sur une machine à laquelle vous avez généralement accès.
 - `Repository distant` : C'est le repository qui est **hébergé et géré** par une plateforme spécialisée (Github, Gitlab, Gitea, etc...). Ils peuvent être publics (accessibles à tous) ou privés (accessibles uniquement à ceux qu'on souhaite).
 - `Les branches` : Permettent de gérer plusieurs versions d'un même projet.
+- `conflit` : C'est l'événement qui se déclenche lorsque l'intégrité du travail n'est plus assurée.
 
 ## Commandes
 
@@ -35,4 +36,15 @@
 - `git merge <nom>` : Permet de fusionner la branche `<nom>` avec la branche active.
 - `git rebase <branch>` : Permet de mettre à jour la branche courante à partir de la branche `<branch>`
 
+## Gestion des conflits
 
+
+
+
+
+
+
+## PB Exo
+
+1. Gestion de projet : pas d'orga = c'est la 💩
+2. Quand la conception est mauvaise !
