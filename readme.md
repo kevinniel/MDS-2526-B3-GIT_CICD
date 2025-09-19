@@ -18,7 +18,8 @@
 - `git init` : Permet de créer un repository local dans le dossier courant.
 - `git remote add origin <url>` : Permet de relier un repository local à un repository distant
 - `git clone <url> <folder>` : Permet de créer un repository local à partir du contenu d'un repository distant. Lie automatiquement les deux repository.
-- `git add <param>` : Permet d'indexer les modifications passées dans `<param>`.
+- `git add <param>` : Permet d'indexer les fichiers/dossiers passées dans `<param>`.
+- `git remove <param>` : Permet de désindexer les fichiers/dossiers passées dans `<param>`.
 - `git commit -m "<message>"` : Permet de sauvegarder un état d'indexation. Permet également de décrire le commit grâce au message qui est **obligatoire**. Ils sont datés.
 - `git push` : Permet d'envoyer les commits du repository local sur le repository distant. En cas de changement de branche ou lors du premier push, il faudra utiliser la commande `git push -u origin <branch>`. Si vous l'oubliez, GIT vous le rapellera.
 - `git pull` : Permet de récupérer les commits du repository distant sur le repository local.
@@ -33,6 +34,5 @@ reset
 merge
 branch
 switch (checkout ???)
-remove
 
 
