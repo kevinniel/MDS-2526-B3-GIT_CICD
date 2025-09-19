@@ -29,6 +29,8 @@
 - `git reset --hard` : Permet de supprimer toutes les modifications non commitées.
 - `git branch` : Permet de lister les branches du repository local et de voir quelle est la branche active.
 - `git branch <nom>` : Permet de créer une branche nommée sur le repository local.
+- `git branch -d <nom>` : Permet de supprimer une branche sur un repository local.
+- `git push origin --delete` : Permet de propager à distance le suppression de branches en local.
 - `git checkout <nom>` : Permet de rendre la branche `<nom>` active (= changer de branche 🙈).
 - `git merge <nom>` : Permet de fusionner la branche `<nom>` avec la branche active.
 - `git rebase <branch>` : Permet de mettre à jour la branche courante à partir de la branche `<branch>`
