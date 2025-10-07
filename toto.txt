@@ -1,6 +1,4 @@
 TODO : 
-- fork & PR
 - Gestion de projet
-- Gitmoji
 - Techniques de gestion des branches (gitflow)
 - issues & fix
