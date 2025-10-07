@@ -90,3 +90,10 @@ Chaque membre :
     - Le changelog correspond aux versions taguées
     - Les PR sont liées aux issues
     - Le board GitHub reflète l’état final du projet
+
+## Groupes 
+
+1 : nathan + ad + Matthis r.
+2 : Quentin + Bridou + Robin
+3 : Léo + Alexandre + Camille
+4 : Mattis b. + Mathis h + Frédéric + damien
