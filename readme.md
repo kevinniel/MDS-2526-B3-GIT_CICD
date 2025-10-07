@@ -14,6 +14,8 @@
 - `Repository distant` : C'est le repository qui est **hébergé et géré** par une plateforme spécialisée (Github, Gitlab, Gitea, etc...). Ils peuvent être publics (accessibles à tous) ou privés (accessibles uniquement à ceux qu'on souhaite).
 - `Les branches` : Permettent de gérer plusieurs versions d'un même projet.
 - `conflit` : C'est l'événement qui se déclenche lorsque l'intégrité du travail n'est plus assurée.
+- `Fork` : C'est un repository distant propriétaire qui est une copie d'un autre repository distant non propriétaire.
+- `Pull Request` : Propose de fusionner un fork vers le repository original.
 
 ## Commandes
 
@@ -58,7 +60,24 @@ Pour identifier un conflit dans un fichier, 3 parties :
 2. Penser à `git pull` avant de `git push` permet d'éviter d'en avoir.
 3. C'est normal d'en rencontrer, même avec les meilleures pratiques.
 
+## Votre profil Github
+
+Github vous permet de créer un "profil" et de le présenter proprement. Pour en mettre en place :
+
+1. créer un repository qui ait **EXACTEMENT** le même nom que votre pseudo.
+2. créer un fichier readme.md dedans et le remplir
+3. consultez l'url : https://github.com/VOTRE_PSEUDO
+
+Le contenu du fichier readme devrait s'afficher !
+
++++ => mettez le lien de votre profil github dans le fichier de ce repo (via une PR & un Fork).
+
 ## Les bonnes pratiques
 
 - Les commentaires de vos commits doivent être explicites. Si vous avez oublier de nommer correctement le dernier, faites un `git commit --amend`.
 - intégrer les gitmoji : https://gitmoji.dev/
+
+
+
+FORK
+POULE REQUEST
