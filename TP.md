@@ -91,6 +91,25 @@ Chaque membre :
     - Les PR sont liées aux issues
     - Le board GitHub reflète l’état final du projet
 
+## Intégration CI/CD
+
+Vous allez maintenant automatiser plusieurs vérifications et actions sur votre dépôt via GitHub Actions. Chaque script doit être placé dans le dossier : `.github/workflows/` et enregistré avec une extension .yml.
+
+### Étape 1 – Fermeture automatique des issues
+
+Créez un workflow CI/CD qui :
+
+- Se déclenche à chaque push sur toutes les branches.
+- Analyse les messages de commits.
+- Ferme automatiquement les issues mentionnées avec des mots-clés comme : `Fixes #1, Closes #2, Resolves #3`.
+- Ajoute un commentaire automatique sur l’issue indiquant la branche et le commit qui ont provoqué la fermeture.
+- Ignore les Pull Requests (ne doit fermer que des issues).
+
+### Étape 2 – Vérification du changelog
+
+Mettez en place un workflow CI qui automatise la vérification du fichier CHANGELOG.md.
+
+
 ## Groupes 
 
 1 : nathan + ad + Matthis r.
