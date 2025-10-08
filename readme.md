@@ -17,6 +17,7 @@
 - `Fork` : C'est un repository distant propriétaire qui est une copie d'un autre repository distant non propriétaire.
 - `Pull Request` : Propose de fusionner un fork vers le repository original.
 - `Issue` : "Ticket" géré via le système de ticketing de github.
+- `Tag` : Étiquette permettant d'indiquer une version importante et stable.
 
 ## Commandes
 
@@ -39,6 +40,9 @@
 - `git checkout <nom>` : Permet de rendre la branche `<nom>` active (= changer de branche 🙈).
 - `git merge <nom>` : Permet de fusionner la branche `<nom>` avec la branche active.
 - `git rebase <branch>` : Permet de mettre à jour la branche courante à partir de la branche `<branch>`
+- `git tag -a v1.0.0 -m "message de description"` : Permet de créer un tag sur le dernier commit, en spécifiant une version `v1.0.0` et avec un message de description.
+- `git push origin v1.0.0` : Permet de pousser un tag spécifique sur le repository distant.
+- `git push origin --tags` : Permet de pousser tous les tags sur le repository distant.
 
 ## Les conflits
 
