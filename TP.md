@@ -107,8 +107,40 @@ Créez un workflow CI/CD qui :
 
 ### Étape 2 – Vérification du changelog
 
-Mettez en place un workflow CI qui automatise la vérification du fichier CHANGELOG.md.
+Créez un script YAML GitHub Actions (à placer dans .github/workflows/) qui s’exécute sur le dépôt et valide la cohérence entre CHANGELOG.md et les tags Git.
 
+#### Exigences minimales
+
+- Le workflow s’exécute automatiquement dans GitHub Actions.
+- Il vérifie l’existence de CHANGELOG.md.
+- Il identifie la dernière version taguée (format attendu: vMAJOR.MINOR.PATCH).
+- Il échoue si cette version n’est pas référencée dans CHANGELOG.md de manière explicite.
+- Les messages d’échec doivent être compréhensibles par un étudiant non initié.
+
+#### Cas à couvrir
+
+- Tag présent mais absent du changelog → échec.
+- Changelog présent mais sans section correspondant au dernier tag → échec.
+- Changelog et tag alignés → réussite.
+
+### Étape 3 - Vérification du nommage des branches
+
+Créer un workflow qui :
+
+- Se déclenche sur chaque pull request.
+- Vérifie que le nom de la branche respecte la convention Git Flow : `feature/…, release/x.y.z, hotfix/x.y.z`.
+- Échoue avec un message clair si ce n’est pas le cas.
+
+Astuces : vous pouvez vous servir de `github.ref` et `github.head_ref`
+
+### Étape 4 - Vérification de la présence des fichiers obligatoires
+
+Créer un workflow qui échoue si certains fichiers manquent dans le dépôt :
+
+- README.md
+- CHANGELOG.md
+- LICENSE
+- CONTRIBUTING.md
 
 ## Groupes 
 
