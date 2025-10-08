@@ -16,8 +16,10 @@
 - `conflit` : C'est l'événement qui se déclenche lorsque l'intégrité du travail n'est plus assurée.
 - `Fork` : C'est un repository distant propriétaire qui est une copie d'un autre repository distant non propriétaire.
 - `Pull Request` : Propose de fusionner un fork vers le repository original.
-- `Issue` : "Ticket" géré via le système de ticketing de github.
 - `Tag` : Étiquette permettant d'indiquer une version importante et stable.
+- `Issue` : "Ticket" géré via le système de ticketing de github.
+- `Milestone` : Ensemble d'issues permettant la gestion d'un projet.
+- `Kanban` : Affichage des issues dans github selon la méthodologie Agile (Kanban).
 
 ## Commandes
 
