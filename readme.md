@@ -82,3 +82,7 @@ Le contenu du fichier readme devrait s'afficher !
 - intégrer les gitmoji : https://gitmoji.dev/
 - Avoir un beau profil (ex : https://github.com/abhisheknaiidu/awesome-github-profile-readme?tab=readme-ov-file)
 - Utiliser Git Flow !
+
+## Ressources utiles 
+- Vous pouvez installer l'utilitaire Gitflow pour CLI : `https://danielkummer.github.io/git-flow-cheatsheet/`
+- Github en CLI : `https://cli.github.com/`
