@@ -116,3 +116,7 @@ Mettez en place un workflow CI qui automatise la vérification du fichier CHANGE
 2 : Quentin + Bridou + Robin
 3 : Léo + Alexandre + Camille
 4 : Mattis b. + Mathis h + Frédéric + damien
+
+
+
+test
