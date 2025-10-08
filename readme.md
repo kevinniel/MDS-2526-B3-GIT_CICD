@@ -81,3 +81,4 @@ Le contenu du fichier readme devrait s'afficher !
 - Les commentaires de vos commits doivent être explicites. Si vous avez oublier de nommer correctement le dernier, faites un `git commit --amend`.
 - intégrer les gitmoji : https://gitmoji.dev/
 - Avoir un beau profil (ex : https://github.com/abhisheknaiidu/awesome-github-profile-readme?tab=readme-ov-file)
+- Utiliser Git Flow !
